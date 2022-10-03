@@ -22,20 +22,21 @@ header {
 
 footer {
   background-color: var(--medium-blue);
-  height: 560px;
 }
 
+footer .container-fluid {
+  background-color: var(--dark-blue);
+  height: 200px;
+}
 
 .portfolio {
 }
 
 .about {
-  height: 700px;
   background-color: var(--green-water);
 }
 
 .contact {
-  height: 600px;
 }
 
 [class^="container"] {
@@ -58,5 +59,23 @@ header [class^="col"] {
 .portfolio .container [class^="col"] {
   height: 300px;
   background-color: rgba(137, 43, 226, 0.329);
+  border: 1px solid black;
+}
+
+.about .container [class^="col"] {
+  height: 300px;
+  background-color: rgba(137, 43, 226, 0.329);
+  border: 1px solid black;
+}
+
+.contact .container [class^="col"] {
+  height: 200px;
+  background-color: rgba(137, 43, 226, 0.329);
+  border: 1px solid black;
+}
+
+footer [class^="container"] [class^="col"] {
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.596);
   border: 1px solid black;
 }
