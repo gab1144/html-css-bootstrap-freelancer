@@ -1,0 +1,40 @@
+:root {
+  --dark-blue: rgb(44, 62, 80);
+  --green-water: rgb(26, 188, 156);
+  --medium-blue: rgb(58, 84, 109);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--dark-blue);
+  height: 90px;
+}
+
+.jumbotron {
+  background-color: var(--green-water);
+}
+
+footer {
+  background-color: var(--medium-blue);
+  height: 560px;
+}
+
+
+.portfolio {
+  height: 2500px;
+
+}
+
+.about {
+  height: 700px;
+  background-color: var(--green-water);
+}
+
+.contact {
+  height: 600px;
+}
