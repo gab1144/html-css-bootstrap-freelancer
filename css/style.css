@@ -18,17 +18,6 @@ header {
   height: 90px;
 }
 
-header [class^="container"] {
-  background-color: rgba(255, 230, 0, 0.432);
-  border: 1px solid black;
-}
-
-header [class^="col"] {
-  height: 90px;
-  background-color: rgba(137, 43, 226, 0.329);
-  border: 1px solid black;
-}
-
 .jumbotron {
   background-color: var(--green-water);
 }
