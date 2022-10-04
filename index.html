@@ -20,15 +20,35 @@
 <body>
 
   <header>
-    <div class="container h-100">
-      <div class="row h-100 d-flex">
-        <div class="col d-flex align-items-center">START BOOTSTRAP</div>
-        <div class="col d-none d-md-block text-end">
-          <a href="#">portfolio</a>
-          <a href="#">about</a>
-          <a href="#">contact</a>
-        </div>
-        <div class="col d-md-none text-end">h</div>
+    <div class="container h-100 text-white">
+
+      <div class="container h-100 d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg w-100 ">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+            
+            <button class="navbar-toggler border p-1 pt-0 pb-0 rounded text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                
+                <li class="nav-item">
+                  <a class="nav-link text-white"  href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">contact</a>
+                </li>
+            
+            
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
       </div>
     </div>
   </header>
@@ -130,18 +150,18 @@
 
             <form class="sc-form">
               <div class="mb-3">
-                <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                <input type="text" class="form-control" placeholder="Name">
               </div>
               <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                <input type="email" class="form-control" placeholder="Email Address">
               </div>
               
               <div class="mb-3">
-                <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                <input type="text" class="form-control" placeholder="Phone Number">
               </div>
 
               <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>  
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>  
               </div>
 
               <button type="submit" class="btn btn-info text-white">Submit</button>
