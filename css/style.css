@@ -19,6 +19,10 @@ header {
   background-color: var(--green-water);
 }
 
+.jumbotron img {
+  height: 250px;
+}
+
 footer {
   background-color: var(--medium-blue);
 }
@@ -38,7 +42,7 @@ footer .container-fluid {
 .contact {
 }
 
-[class^="container"] {
+[class^="container"]:not(.jumbotron [class^="container"], .portfolio [class^="container"]) {
   background-color: rgba(255, 230, 0, 0.432);
   border: 1px solid black;
 }
@@ -46,17 +50,6 @@ footer .container-fluid {
 header [class^="col"] {
   height: 90px;
   background-color: rgba(137, 43, 226, 0.329);
-  border: 1px solid black;
-}
-
-.jumbotron [class^="container"] [class^="col"] {
-  height: 500px;
-  background-color: rgba(137, 43, 226, 0.329);
-  border: 1px solid black;
-}
-
-.portfolio [class^="container"] [class^="col"] {
-  height: 300px;
   border: 1px solid black;
 }
 
@@ -77,23 +70,12 @@ footer [class^="container"] [class^="col"] {
   border: 1px solid black;
 }
 
-.immagine {
-  background-color: red;
-  height: 100%;
-  width: 100%;
-}
-
-.jumbotron .immagine {
-  height: 200px;
-  width: 200px;
-}
-
 .jumbotron .title {
   height: 200px;
   width: 700px;
 }
 
-.title, .skills {
+.title {
   height: 150px;
   width: 100%;
   background-color: blue;
@@ -110,6 +92,18 @@ footer [class^="container"] [class^="col"] {
   background-color: cornflowerblue;
 }
 
-.skills {
-  background-color: green;
+
+.sc-form input, .sc-form textarea{
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid;
+}
+
+.line {
+  width: 10rem;
+  height: 3px;
+}
+
+.bi-star-fill {
+  padding: 0 2%;
 }
