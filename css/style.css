@@ -4,10 +4,13 @@
   --medium-blue: rgb(58, 84, 109);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.line {
+  width: 10rem;
+  height: 3px;
+}
+
+.bi-star-fill {
+  padding: 0 2%;
 }
 
 header {
@@ -15,34 +18,7 @@ header {
   height: 90px;
 }
 
-.jumbotron {
-  background-color: var(--green-water);
-}
-
-.jumbotron img {
-  height: 250px;
-}
-
-footer {
-  background-color: var(--medium-blue);
-}
-
-footer .container-fluid {
-  background-color: var(--dark-blue);
-  height: 200px;
-}
-
-.portfolio {
-}
-
-.about {
-  background-color: var(--green-water);
-}
-
-.contact {
-}
-
-[class^="container"]:not(.jumbotron [class^="container"], .portfolio [class^="container"]) {
+header [class^="container"] {
   background-color: rgba(255, 230, 0, 0.432);
   border: 1px solid black;
 }
@@ -53,57 +29,28 @@ header [class^="col"] {
   border: 1px solid black;
 }
 
-.about [class^="container"] [class^="col"] {
-  height: 300px;
-  background-color: rgba(137, 43, 226, 0.329);
-  border: 1px solid black;
+.jumbotron {
+  background-color: var(--green-water);
 }
 
-.contact .container [class^="col"] {
-  background-color: rgba(137, 43, 226, 0.329);
-  border: 1px solid black;
+.jumbotron img {
+  height: 250px;
 }
 
-footer [class^="container"] [class^="col"] {
-  height: 200px;
-  background-color: rgba(255, 255, 255, 0.596);
-  border: 1px solid black;
+.about {
+  background-color: var(--green-water);
 }
 
-.jumbotron .title {
-  height: 200px;
-  width: 700px;
-}
-
-.title {
-  height: 150px;
-  width: 100%;
-  background-color: blue;
-}
-
-.personal-info, .area-bottone {
-  background-color: coral;
-  height: 50px;
-  width: 100%;
-  border-bottom: 1px solid grey;
-}
-
-.area-bottone {
-  background-color: cornflowerblue;
-}
-
-
-.sc-form input, .sc-form textarea{
+.sc-form .form-control{
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid;
 }
 
-.line {
-  width: 10rem;
-  height: 3px;
+footer {
+  background-color: var(--medium-blue);
 }
 
-.bi-star-fill {
-  padding: 0 2%;
+footer .container-fluid {
+  background-color: var(--dark-blue);
 }
