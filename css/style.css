@@ -59,6 +59,12 @@ h2 {
   border-bottom: 1px solid;
 }
 
+.form-control::placeholder {
+  color: black;
+  opacity: 1;
+  font-weight: 700;
+}
+
 footer .container-fluid {
   background-color: var(--dark-blue);
 }
